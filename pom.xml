@@ -26,6 +26,17 @@
 	<artifactId>guice</artifactId>
 	<version>4.0</version>
    </dependency>
+   <!-- guice要想利用mybatis的持久化功能,就必须通过这个桥包 -->
+	<dependency>
+	<groupId>org.mybatis</groupId>
+	<artifactId>mybatis-guice</artifactId>
+	<version>3.7</version>
+   </dependency>
+   <dependency>
+	<groupId>org.mybatis</groupId>
+	<artifactId>mybatis</artifactId>
+	<version>3.3.0</version>
+   </dependency>
 
     
   </dependencies>
